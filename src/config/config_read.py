@@ -15,7 +15,7 @@ class ConfigRead:
         }
     
     @property
-    def base_path(self) -> str:
+    def base_path(self) -> str: 
         return {
 
         }

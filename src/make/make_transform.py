@@ -16,6 +16,4 @@ class MakeTransform:
             if transformed[col].dtype == np.number:
                 transformed[f"{col}_squared"] = transformed[col] ** 2
         
-        self._transformed_data = transformed
-
         return transformed
