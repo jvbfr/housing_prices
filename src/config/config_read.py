@@ -11,7 +11,8 @@ class ConfigRead:
     def data_sources(self) -> Dict[str, str]:
 
         return {
-            "housing": "data/housing.csv"
+            "housing": "../data/housing.csv",
+            "housing_resampled": "../data/housing_resampled.csv"
         }
     
     @property
