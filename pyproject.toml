@@ -12,5 +12,6 @@ dependencies = [
     "xgboost",
     "shap",
     "scipy",
-    "boruta"       
+    "boruta",
+    "imblearn"       
 ]

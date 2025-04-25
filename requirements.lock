@@ -24,8 +24,14 @@ geopy==2.4.1
     # via geo-analysis (pyproject.toml)
 greenlet==3.2.1
     # via sqlalchemy
+imbalanced-learn==0.13.0
+    # via imblearn
+imblearn==0.0
+    # via geo-analysis (pyproject.toml)
 joblib==1.4.2
-    # via scikit-learn
+    # via
+    #   imbalanced-learn
+    #   scikit-learn
 kiwisolver==1.4.8
     # via matplotlib
 llvmlite==0.44.0
@@ -45,6 +51,7 @@ numpy==1.24.4
     #   geo-analysis (pyproject.toml)
     #   boruta
     #   contourpy
+    #   imbalanced-learn
     #   matplotlib
     #   numba
     #   optuna
@@ -82,11 +89,14 @@ scikit-learn==1.6.1
     # via
     #   geo-analysis (pyproject.toml)
     #   boruta
+    #   imbalanced-learn
     #   shap
+    #   sklearn-compat
 scipy==1.15.2
     # via
     #   geo-analysis (pyproject.toml)
     #   boruta
+    #   imbalanced-learn
     #   scikit-learn
     #   shap
     #   xgboost
@@ -96,6 +106,8 @@ shap==0.47.2
     # via geo-analysis (pyproject.toml)
 six==1.17.0
     # via python-dateutil
+sklearn-compat==0.1.3
+    # via imbalanced-learn
 slicer==0.0.8
     # via shap
 sqlalchemy==2.0.40
@@ -103,7 +115,9 @@ sqlalchemy==2.0.40
     #   alembic
     #   optuna
 threadpoolctl==3.6.0
-    # via scikit-learn
+    # via
+    #   imbalanced-learn
+    #   scikit-learn
 tqdm==4.67.1
     # via
     #   optuna
