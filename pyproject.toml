@@ -9,5 +9,8 @@ dependencies = [
     "pandas==2.0.3",
     "scikit-learn",
     "optuna",
-    "xgboost"       
+    "xgboost",
+    "shap",
+    "scipy",
+    "boruta"       
 ]
