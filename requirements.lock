@@ -4,6 +4,10 @@ alembic==1.15.2
     # via optuna
 boruta==0.4.3
     # via geo-analysis (pyproject.toml)
+certifi==2025.1.31
+    # via requests
+charset-normalizer==3.4.1
+    # via requests
 cloudpickle==3.1.1
     # via shap
 colorama==0.4.6
@@ -24,6 +28,8 @@ geopy==2.4.1
     # via geo-analysis (pyproject.toml)
 greenlet==3.2.1
     # via sqlalchemy
+idna==3.10
+    # via requests
 imbalanced-learn==0.13.0
     # via imblearn
 imblearn==0.0
@@ -85,6 +91,8 @@ pytz==2025.2
     # via pandas
 pyyaml==6.0.2
     # via optuna
+requests==2.32.3
+    # via geo-analysis (pyproject.toml)
 scikit-learn==1.6.1
     # via
     #   geo-analysis (pyproject.toml)
@@ -120,6 +128,7 @@ threadpoolctl==3.6.0
     #   scikit-learn
 tqdm==4.67.1
     # via
+    #   geo-analysis (pyproject.toml)
     #   optuna
     #   shap
 typing-extensions==4.13.2
@@ -129,5 +138,7 @@ typing-extensions==4.13.2
     #   sqlalchemy
 tzdata==2025.2
     # via pandas
+urllib3==2.4.0
+    # via requests
 xgboost==3.0.0
     # via geo-analysis (pyproject.toml)
